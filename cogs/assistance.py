@@ -658,8 +658,8 @@ are not on 11.3, use [this version of safehax.](https://github.com/TiniVi/safeha
 
     @commands.command()
     @commands.cooldown(rate=1, per=30.0, type=commands.BucketType.channel)
-    async def flashdrives(self, ctx):
-        """Message on flash drives on the Wii U"""
+    async def wiiuhdd(self, ctx):
+        """Message on HDDs on the Wii U"""
         await self.simple_embed(ctx, """
                                 Some flash drives work with the Wii U, some don't. If you have read or write errors, \
 or games crash often, you might want to try a different flash drive or hard drive
